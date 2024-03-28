@@ -25,7 +25,7 @@ def X2():
     fbdv = "FBDV/"+model2
     fbsv = "FBSV/5.1.1"
     fbdm = "FBDM/{density=1.5,width=720,height=1431};]" 
-    ua = f"{a}{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
+    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 
 def X3():
@@ -55,5 +55,5 @@ def X4():
     fbdv = "FBDV/"+model2
     fbsv = "FBSV/5.1.1"
     fbdm = "FBDM/{density=1.5,width=720,height=1431};]" 
-    ua = f"{a}{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
+    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
