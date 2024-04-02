@@ -1,15 +1,27 @@
 def X1():
-    g = "[FBAN/FB4A;FBAV/196.0.0.67;FBBV/266989806;FBDM/{density=3.0,width=1080,height=1776};FBLC/en_GB;FBRV/557466631;FBCR/Meteor;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A415F;FBSV/12.2.3;nullFBCA/armeabi-v7a:armeabi;]"
-    return "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"+g
+    a = 'Davik/2.1.0 (Linux; U; Android '+str(random.randrange(5,12))+"; "+str(model)+'; Build/QP1A'+"."+str(random.randrange(111111,999999))+"."+str(random.randrange(111,999))+"))"
+    b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    c = ";[FBAN/Orca-Android;FBAV/196.0.0.96;FBPN/com.facebook.orca;FBLC/dsb_DE;FBBV/793687841;FBCR/US Cellular;FBMF/vivo;FBBD/vivo;FBDV/vivo 1933;FBSV/13.3.4;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.0,width=720,height=1280};FB_FW/1;FBRV/564988243;]"
+    ua = a+b+c
+    return ua
 
 def X2():
-    g = "[FBAN/FB4A;FBAV/196.0.0.84;FBBV/499569537;FBDM/{density=3.0,width=1080,height=2137};FBLC/ar_AR;FBRV/523614416;FBCR/&amp;#160-;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A500F;FBSV/9.1.1;nullFBCA/armeabi-v7a:armeabi;]"
-    return "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"+g
+    a = 'Davik/2.1.0 (Linux; U; Android '+str(random.randrange(5,12))+"; "+str(model)+'; Build/QP1A'+"."+str(random.randrange(111111,999999))+"."+str(random.randrange(111,999))+"))"
+    b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    c = ";[FBAN/Orca-Android;FBAV/196.0.0.96;FBPN/com.facebook.orca;FBLC/dsb_DE;FBBV/793687841;FBCR/US Cellular;FBMF/vivo;FBBD/vivo;FBDV/vivo 1933;FBSV/13.3.4;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.0,width=720,height=1280};FB_FW/1;FBRV/564988243;]"
+    ua = a+b+c
+    return ua
 
 def X3():
-    g = "[FBAN/FB4A;FBAV/196.0.0.62;FBBV/474961242;FBDM/{density=3.5,width=1440,height=2960};FBLC/vi_VN;FBRV/379314031;FBCR/Bell;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A215U1;FBSV/10.0.1;nullFBCA/armeabi-v7a:armeabi;]"
-    return "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"+g
+    a = 'Davik/2.1.0 (Linux; U; Android '+str(random.randrange(5,12))+"; "+str(model)+'; Build/QP1A'+"."+str(random.randrange(111111,999999))+"."+str(random.randrange(111,999))+"))"
+    b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    c = ";[FBAN/Orca-Android;FBAV/196.0.0.96;FBPN/com.facebook.orca;FBLC/dsb_DE;FBBV/793687841;FBCR/US Cellular;FBMF/vivo;FBBD/vivo;FBDV/vivo 1933;FBSV/13.3.4;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.0,width=720,height=1280};FB_FW/1;FBRV/564988243;]"
+    ua = a+b+c
+    return ua
 
 def X4():
-    g = "[FBAN/FB4A;FBAV/196.0.0.68;FBBV/710206455;FBDM/{density=2.75,width=1080,height=2177};FBLC/en_US;FBRV/620383006;FBCR/AIS;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A500FU;FBSV/6.1.1;nullFBCA/armeabi-v7a:armeabi;]"
-    return "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"+g
+    a = 'Davik/2.1.0 (Linux; U; Android '+str(random.randrange(5,12))+"; "+str(model)+'; Build/QP1A'+"."+str(random.randrange(111111,999999))+"."+str(random.randrange(111,999))+"))"
+    b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    c = ";[FBAN/Orca-Android;FBAV/196.0.0.96;FBPN/com.facebook.orca;FBLC/dsb_DE;FBBV/793687841;FBCR/US Cellular;FBMF/vivo;FBBD/vivo;FBDV/vivo 1933;FBSV/13.3.4;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.0,width=720,height=1280};FB_FW/1;FBRV/564988243;]"
+    ua = a+b+c
+    return ua
