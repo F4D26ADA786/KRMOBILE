@@ -1,15 +1,15 @@
 def X1():
-    g = "[FBAN/FB4A;FBAV/196.0.0.68;FBBV/544125528;FBDM/{density=0.75,width=240,height=400};FBLC/es_ES;FBRV/507386737;FBCR/Movistar;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-I5800;FBSV/2.3.7;nullFBCA/armeabi-v7a:armeabi;]"
+    g = "[FBAN/FB4A;FBAV/24.0.0.15.43;FBBV/20454115;FBDM/{density=3.2,width=540,height=960};FBLC/ar_OM;FBRV/573945660;FB_FW/2;FBCR/Freedom Mobile;FBMF/Vivo;FBBD/Vivo;FBPN/com.facebook.katana;FBDV/Y51L;FBSV/5.0.2;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
     return "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"+g
 
 def X2():
-    g = "[FBAN/FB4A;FBAV/196.0.0.68;FBBV/544125528;FBDM/{density=0.75,width=240,height=400};FBLC/es_ES;FBRV/507386737;FBCR/Movistar;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-I5800;FBSV/2.3.7;nullFBCA/armeabi-v7a:armeabi;]"
+    g = "[FBAN/FB4A;FBAV/24.0.0.15.43;FBBV/20454115;FBDM/{density=3.2,width=540,height=960};FBLC/ar_OM;FBRV/573945660;FB_FW/2;FBCR/Freedom Mobile;FBMF/Vivo;FBBD/Vivo;FBPN/com.facebook.katana;FBDV/Y51L;FBSV/5.0.2;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
     return "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"+g
 
 def X3():
-    g = "[FBAN/FB4A;FBAV/196.0.0.68;FBBV/544125528;FBDM/{density=0.75,width=240,height=400};FBLC/es_ES;FBRV/507386737;FBCR/Movistar;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-I5800;FBSV/2.3.7;nullFBCA/armeabi-v7a:armeabi;]"
+    g = "[FBAN/FB4A;FBAV/24.0.0.15.43;FBBV/20454115;FBDM/{density=3.2,width=540,height=960};FBLC/ar_OM;FBRV/573945660;FB_FW/2;FBCR/Freedom Mobile;FBMF/Vivo;FBBD/Vivo;FBPN/com.facebook.katana;FBDV/Y51L;FBSV/5.0.2;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
     return "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"+g
 
 def X4():
-    g = "[FBAN/FB4A;FBAV/196.0.0.68;FBBV/544125528;FBDM/{density=0.75,width=240,height=400};FBLC/es_ES;FBRV/507386737;FBCR/Movistar;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-I5800;FBSV/2.3.7;nullFBCA/armeabi-v7a:armeabi;]"
+    g = "[FBAN/FB4A;FBAV/24.0.0.15.43;FBBV/20454115;FBDM/{density=3.2,width=540,height=960};FBLC/ar_OM;FBRV/573945660;FB_FW/2;FBCR/Freedom Mobile;FBMF/Vivo;FBBD/Vivo;FBPN/com.facebook.katana;FBDV/Y51L;FBSV/5.0.2;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
     return "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"+g
