@@ -1,5 +1,5 @@
 def X1():
-    model = random.choice(["RMX3890","RMX3867","RMX3782","RMX3142","RMX3834","RMX2176","RMX3750","RMX3706"])
+    model = random.choice(["TECNO KJ5","TECNO KJ6","TECNO KJ7","TECNO BG7","TECNO CK6ns","TECNO CK7n","TECNO CI7n"])
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
     fbbv = "FBBV/58682818;"
@@ -8,12 +8,12 @@ def X1():
     fbnp = "FBNP/com.facebook.katana"
     fbdv = "FBDV/"+model
     fbsv = "FBSV/13"
-    fbdm = "FBDM/{density=3.0,width=1080,height=2126};]" 
+    fbdm = "FBDM/{density=3.0,width=1080,height=2460};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 
 def X2():
-    model = random.choice(["RMX3890","RMX3867","RMX3782","RMX3142","RMX3834","RMX2176","RMX3750","RMX3706"])
+    model = random.choice(["TECNO KJ5","TECNO KJ6","TECNO KJ7","TECNO BG7","TECNO CK6ns","TECNO CK7n","TECNO CI7n"])
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
     fbbv = "FBBV/58682818;"
@@ -22,12 +22,12 @@ def X2():
     fbnp = "FBNP/com.facebook.katana"
     fbdv = "FBDV/"+model
     fbsv = "FBSV/13"
-    fbdm = "FBDM/{density=3.0,width=1080,height=2126};]" 
+    fbdm = "FBDM/{density=3.0,width=1080,height=2460};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 
 def X3():
-    model = random.choice(["RMX3890","RMX3867","RMX3782","RMX3142","RMX3834","RMX2176","RMX3750","RMX3706"])
+    model = random.choice(["TECNO KJ5","TECNO KJ6","TECNO KJ7","TECNO BG7","TECNO CK6ns","TECNO CK7n","TECNO CI7n"])
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
     fbbv = "FBBV/58682818;"
@@ -36,12 +36,12 @@ def X3():
     fbnp = "FBNP/com.facebook.katana"
     fbdv = "FBDV/"+model
     fbsv = "FBSV/13"
-    fbdm = "FBDM/{density=3.0,width=1080,height=2126};]" 
+    fbdm = "FBDM/{density=3.0,width=1080,height=2460};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 
 def X4():
-    model = random.choice(["RMX3890","RMX3867","RMX3782","RMX3142","RMX3834","RMX2176","RMX3750","RMX3706"])
+    model = random.choice(["TECNO KJ5","TECNO KJ6","TECNO KJ7","TECNO BG7","TECNO CK6ns","TECNO CK7n","TECNO CI7n"])
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
     fbbv = "FBBV/58682818;"
@@ -50,6 +50,6 @@ def X4():
     fbnp = "FBNP/com.facebook.katana"
     fbdv = "FBDV/"+model
     fbsv = "FBSV/13"
-    fbdm = "FBDM/{density=3.0,width=1080,height=2126};]" 
+    fbdm = "FBDM/{density=3.0,width=1080,height=2460};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
