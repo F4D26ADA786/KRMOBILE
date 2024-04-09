@@ -14,42 +14,42 @@ def X1():
 
 def X2():
     model = random.choice(["RMX3890","RMX3867","RMX3782","RMX3142","RMX3834","RMX2176","RMX3750","RMX3706"])
-	fban = "[FBAN/FB4A"
-	fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
-	fbbv = "FBBV/58682818;"
-	fblc = "FBLC/en_GB"
-	fbcr = "FBCR/null"
-	fbnp = "FBNP/com.facebook.katana"
-	fbdv = "FBDV/"+model
-	fbsv = "FBSV/13"
-	fbdm = "FBDM/{density=3.0,width=1080,height=2126};]" 
-	ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
-	return ua
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model
+    fbsv = "FBSV/13"
+    fbdm = "FBDM/{density=3.0,width=1080,height=2126};]" 
+    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
+    return ua
 
 def X3():
     model = random.choice(["RMX3890","RMX3867","RMX3782","RMX3142","RMX3834","RMX2176","RMX3750","RMX3706"])
-	fban = "[FBAN/FB4A"
-	fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
-	fbbv = "FBBV/58682818;"
-	fblc = "FBLC/en_GB"
-	fbcr = "FBCR/null"
-	fbnp = "FBNP/com.facebook.katana"
-	fbdv = "FBDV/"+model
-	fbsv = "FBSV/13"
-	fbdm = "FBDM/{density=3.0,width=1080,height=2126};]" 
-	ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
-	return ua
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model
+    fbsv = "FBSV/13"
+    fbdm = "FBDM/{density=3.0,width=1080,height=2126};]" 
+    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
+    return ua
 
 def X4():
     model = random.choice(["RMX3890","RMX3867","RMX3782","RMX3142","RMX3834","RMX2176","RMX3750","RMX3706"])
-	fban = "[FBAN/FB4A"
-	fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
-	fbbv = "FBBV/58682818;"
-	fblc = "FBLC/en_GB"
-	fbcr = "FBCR/null"
-	fbnp = "FBNP/com.facebook.katana"
-	fbdv = "FBDV/"+model
-	fbsv = "FBSV/13"
-	fbdm = "FBDM/{density=3.0,width=1080,height=2126};]" 
-	ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
-	return ua
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model
+    fbsv = "FBSV/13"
+    fbdm = "FBDM/{density=3.0,width=1080,height=2126};]" 
+    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
+    return ua
