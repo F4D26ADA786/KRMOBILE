@@ -1,22 +1,23 @@
 def X1():
     a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    b = ";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748110;FBDM/{density=1.5,width=760,height=1583};FBLC/en_US;FBCR/IND airtel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A217M;FBSV/6.3.1;nullFBCA/armeabi-v7a:armeabi;]"
+    b = ";[FBAN/Orca-Android;FBAV/196.0.0.66;FBPN/com.facebook.orca;FBLC/en_NP;FBBV/835203958;FBCR/Nepal Telecom;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2333;FBSV/6.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=2042};FB_FW/1;FBRV/397663936]"
     ua  = a+b
     return ua
+
 def X2():
     a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    b = ";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748110;FBDM/{density=1.5,width=760,height=1583};FBLC/en_US;FBCR/IND airtel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A217M;FBSV/6.3.1;nullFBCA/armeabi-v7a:armeabi;]"
+    b = ";[FBAN/Orca-Android;FBAV/196.0.0.66;FBPN/com.facebook.orca;FBLC/en_NP;FBBV/835203958;FBCR/Nepal Telecom;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2333;FBSV/6.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=2042};FB_FW/1;FBRV/397663936]"
     ua  = a+b
     return ua
 
 def X3():
     a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    b = ";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748110;FBDM/{density=1.5,width=760,height=1583};FBLC/en_US;FBCR/IND airtel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A217M;FBSV/6.3.1;nullFBCA/armeabi-v7a:armeabi;]"
+    b = ";[FBAN/Orca-Android;FBAV/196.0.0.66;FBPN/com.facebook.orca;FBLC/en_NP;FBBV/835203958;FBCR/Nepal Telecom;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2333;FBSV/6.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=2042};FB_FW/1;FBRV/397663936]"
     ua  = a+b
     return ua
 
 def X4():
     a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    b = ";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748110;FBDM/{density=1.5,width=760,height=1583};FBLC/en_US;FBCR/IND airtel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A217M;FBSV/6.3.1;nullFBCA/armeabi-v7a:armeabi;]"
+    b = ";[FBAN/Orca-Android;FBAV/196.0.0.66;FBPN/com.facebook.orca;FBLC/en_NP;FBBV/835203958;FBCR/Nepal Telecom;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2333;FBSV/6.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=2042};FB_FW/1;FBRV/397663936]"
     ua  = a+b
     return ua
