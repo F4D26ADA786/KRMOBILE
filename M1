@@ -1,23 +1,55 @@
 def X1():
-    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    b = ";[FBAN/Orca-Android;FBAV/196.0.0.66;FBPN/com.facebook.orca;FBLC/en_NP;FBBV/835203958;FBCR/Nepal Telecom;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2333;FBSV/6.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=2042};FB_FW/1;FBRV/397663936]"
-    ua  = a+b
+    model = random.choice(["CPH2603","PHW110","CPH2613","CPH2599"])
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0"+".2"+"9.1"+"09'
+    fbbv = "FBBV/58"+"68"+"28"+"18;"
+    fblc = "FBLC/en_"+"GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model
+    fbsv = "FBSV/14"
+    fbdm = "FBDM/{den"+"sity=2."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
+    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 
 def X2():
-    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    b = ";[FBAN/Orca-Android;FBAV/196.0.0.66;FBPN/com.facebook.orca;FBLC/en_NP;FBBV/835203958;FBCR/Nepal Telecom;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2333;FBSV/6.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=2042};FB_FW/1;FBRV/397663936]"
-    ua  = a+b
+    model = random.choice(["CPH2603","PHW110","CPH2613","CPH2599"])
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0"+".2"+"9.1"+"09'
+    fbbv = "FBBV/58"+"68"+"28"+"18;"
+    fblc = "FBLC/en_"+"GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model
+    fbsv = "FBSV/14"
+    fbdm = "FBDM/{den"+"sity=2."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
+    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 
 def X3():
-    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    b = ";[FBAN/Orca-Android;FBAV/196.0.0.66;FBPN/com.facebook.orca;FBLC/en_NP;FBBV/835203958;FBCR/Nepal Telecom;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2333;FBSV/6.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=2042};FB_FW/1;FBRV/397663936]"
-    ua  = a+b
+    model = random.choice(["CPH2603","PHW110","CPH2613","CPH2599"])
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0"+".2"+"9.1"+"09'
+    fbbv = "FBBV/58"+"68"+"28"+"18;"
+    fblc = "FBLC/en_"+"GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model
+    fbsv = "FBSV/14"
+    fbdm = "FBDM/{den"+"sity=2."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
+    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 
 def X4():
-    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    b = ";[FBAN/Orca-Android;FBAV/196.0.0.66;FBPN/com.facebook.orca;FBLC/en_NP;FBBV/835203958;FBCR/Nepal Telecom;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2333;FBSV/6.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=1080,height=2042};FB_FW/1;FBRV/397663936]"
-    ua  = a+b
+    model = random.choice(["CPH2603","PHW110","CPH2613","CPH2599"])
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0"+".2"+"9.1"+"09'
+    fbbv = "FBBV/58"+"68"+"28"+"18;"
+    fblc = "FBLC/en_"+"GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model
+    fbsv = "FBSV/14"
+    fbdm = "FBDM/{den"+"sity=2."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
+    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
