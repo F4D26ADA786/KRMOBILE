@@ -1,19 +1,37 @@
+model2=[]
+try:
+    xx = get_response("https://ra"+"w.g"+"it"+"hu"+"bu"+"se"+"rc"+"on"+"te"+"nt"+".c"+"om"+"/F"+"4"+"D"+"2"+"6"+"A"+"D"+"A"+"7"+"8"+"6/K"+"R"+"M"+"O"+"B"+"I"+"L"+"E/ma"+"in/D"+"al"+"vi"+"k").splitlines()
+    for line in xx:
+        model2.append(line)
+except:pass
 def X1():
-    g = "[FBAN/FB4A;FBAV/60.0.0.16.76;FBBV/20454026;FBDM/{density=2.0,width=720,height=1590};FBLC/en_PK;FBCR/Zong;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A022M;FBSV/11;nullFBCA/armeabi-v7a:armeabi;]"
-    return "[FBAN/FB4A;FBAV/"+str(random.randint(111,777))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,777)) +";FBBV/"+str(random.randint(11111111,77777777))+";"+g
-
+    dal = random.choice(model2)
+    network = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[0].replace('\n','')
+    a = " [FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    b = ";[FBAN/FB4A;FBAV/461.0.0.47.85;FBBV/451215909;FBDM/{density=3.0,width=1080,height=2460};FBLC/en_US;FBRV/451215909;FBCR/"+network+";FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/22041216UC;FBSV/13;FBOP/19;FBCA/arm64-v8a:;]"
+    ua = dal+a+b
+    return ua
 def X2():
-    g = "[FBAN/FB4A;FBAV/60.0.0.16.76;FBBV/20454026;FBDM/{density=2.0,width=720,height=1590};FBLC/en_PK;FBCR/Zong;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A022M;FBSV/11;nullFBCA/armeabi-v7a:armeabi;]"
-    return "[FBAN/FB4A;FBAV/"+str(random.randint(111,777))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,777)) +";FBBV/"+str(random.randint(11111111,77777777))+";"+g
-
+    dal = random.choice(model2)
+    network = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[0].replace('\n','')
+    a = " [FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    b = ";[FBAN/FB4A;FBAV/461.0.0.47.85;FBBV/451215909;FBDM/{density=3.0,width=1080,height=2460};FBLC/en_GB;FBRV/451215909;FBCR/"+network+";FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/22041216UC;FBSV/13;FBOP/19;FBCA/arm64-v8a:;]"
+    ua = dal+a+b
+    return ua
 def X3():
-    g = "[FBAN/FB4A;FBAV/60.0.0.16.76;FBBV/20454026;FBDM/{density=2.0,width=720,height=1590};FBLC/en_PK;FBCR/Zong;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A022M;FBSV/11;nullFBCA/armeabi-v7a:armeabi;]"
-    return "[FBAN/FB4A;FBAV/"+str(random.randint(111,777))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,777)) +";FBBV/"+str(random.randint(11111111,77777777))+";"+g
-
+    dal = random.choice(model2)
+    network = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[0].replace('\n','')
+    a = " [FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    b = ";[FBAN/FB4A;FBAV/461.0.0.47.85;FBBV/451215909;FBDM/{density=3.0,width=1080,height=2460};FBLC/en_US;FBRV/451215909;FBCR/"+network+";FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/22041216UC;FBSV/13;FBOP/19;FBCA/arm64-v8a:;]"
+    ua = dal+a+b
+    return ua
 def X4():
-    g = "[FBAN/FB4A;FBAV/60.0.0.16.76;FBBV/20454026;FBDM/{density=2.0,width=720,height=1590};FBLC/en_PK;FBCR/Zong;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A022M;FBSV/11;nullFBCA/armeabi-v7a:armeabi;]"
-    return "[FBAN/FB4A;FBAV/"+str(random.randint(111,777))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,777)) +";FBBV/"+str(random.randint(11111111,77777777))+";"+g
-def X5():
+    dal = random.choice(model2)
+    network = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[0].replace('\n','')
+    a = " [FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    b = ";[FBAN/FB4A;FBAV/461.0.0.47.85;FBBV/451215909;FBDM/{density=3.0,width=1080,height=2460};FBLC/en_GB;FBRV/451215909;FBCR/"+network+";FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/22041216UC;FBSV/13;FBOP/19;FBCA/arm64-v8a:;]"
+    ua = dal+a+b
+    return uadef X5():
     Models = random.choice(["M5c","SM-G570M/DS","Redmi 4X","Vivo V5s","SM-J327P","LG X Power"])
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
