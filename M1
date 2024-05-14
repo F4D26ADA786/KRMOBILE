@@ -1,52 +1,52 @@
 def X1():
-    model = random.choice(["SM-G991U","SM-G986U","SM-G981U","SM-N986U","SM-N981U","SM-A716U","SM-A528B","SM-A526B","SM-T508U","SM-T507U","SM-F926U","SM-F916U","SM-A325F","SM-T505U","SM-S906U","SM-G996U","SM-G988U","SM-T607U","SM-P605U","SM-F916B","SM-A226B","SM-A526U","SM-T507B","SM-T508B","SM-F926B","SM-G991B","SM-G986B","SM-G981B","SM-N986B","SM-N981B","SM-A716B","SM-A528U","SM-A526U","SM-T505B","SM-S907U","SM-G988B","SM-T607B","SM-P608U","SM-F926U","SM-A226U","SM-A526B","SM-T507U","SM-T508U","SM-F916U","SM-G991U","SM-G986U","SM-G981U","SM-N986U","SM-N981U","SM-A716U","SM-A528B","SM-A526B","SM-T508U","SM-T507U","SM-F926U","SM-F916U","SM-A325F","SM-T505U","SM-S906U","SM-G996U","SM-G988U","SM-T607U","SM-P605U","SM-F916B","SM-A226B","SM-A526U","SM-T507B","SM-T508B","SM-F926B","SM-G991B","SM-G986B","SM-G981B","SM-N986B","SM-N981B","SM-A716B","SM-A528U","SM-A526U","SM-T505B","SM-S907U","SM-G988B","SM-T607B","SM-P608U","SM-F926U","SM-A226U","SM-A526B","SM-T507U","SM-T508U","SM-F916U"])
+    aa = random.choice(["SM-S906U","SM-A505GN","SM-A137F","SM-A546B","SM-G570F","SM-A226B","SM-A528B","SM-J737V","SM-A716U","SM-G935FD","SM-A-K116C2","SM-A105FN","SM-G988B","SM-G935FD","SM-S906U"])
     fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
-    fbbv = "FBBV/"+str(random.randint(410000000,499999999))
-    fblc = "FBLC/"+random.choice(["en_GB","en_US"])
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
     fbcr = "FBCR/null"
     fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+model
-    fbsv = "FBSV/13"
-    fbdm = "FBDM/{den"+"sity=3."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
+    fbdv = "FBDV/"+aa
+    fbsv = "FBSV/"+random.choice(["7.1.1","8.0","9","10","11","12","13","14"])
+    fbdm = "FBDM/{density=2.0,width=720,height=1280};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 def X2():
-    model = random.choice(["SM-G991U","SM-G986U","SM-G981U","SM-N986U","SM-N981U","SM-A716U","SM-A528B","SM-A526B","SM-T508U","SM-T507U","SM-F926U","SM-F916U","SM-A325F","SM-T505U","SM-S906U","SM-G996U","SM-G988U","SM-T607U","SM-P605U","SM-F916B","SM-A226B","SM-A526U","SM-T507B","SM-T508B","SM-F926B","SM-G991B","SM-G986B","SM-G981B","SM-N986B","SM-N981B","SM-A716B","SM-A528U","SM-A526U","SM-T505B","SM-S907U","SM-G988B","SM-T607B","SM-P608U","SM-F926U","SM-A226U","SM-A526B","SM-T507U","SM-T508U","SM-F916U","SM-G991U","SM-G986U","SM-G981U","SM-N986U","SM-N981U","SM-A716U","SM-A528B","SM-A526B","SM-T508U","SM-T507U","SM-F926U","SM-F916U","SM-A325F","SM-T505U","SM-S906U","SM-G996U","SM-G988U","SM-T607U","SM-P605U","SM-F916B","SM-A226B","SM-A526U","SM-T507B","SM-T508B","SM-F926B","SM-G991B","SM-G986B","SM-G981B","SM-N986B","SM-N981B","SM-A716B","SM-A528U","SM-A526U","SM-T505B","SM-S907U","SM-G988B","SM-T607B","SM-P608U","SM-F926U","SM-A226U","SM-A526B","SM-T507U","SM-T508U","SM-F916U"])
+    aa = random.choice(["SM-S906U","SM-A505GN","SM-A137F","SM-A546B","SM-G570F","SM-A226B","SM-A528B","SM-J737V","SM-A716U","SM-G935FD","SM-A-K116C2","SM-A105FN","SM-G988B","SM-G935FD","SM-S906U"])
     fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
-    fbbv = "FBBV/"+str(random.randint(410000000,499999999))
-    fblc = "FBLC/"+random.choice(["en_GB","en_US"])
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
     fbcr = "FBCR/null"
     fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+model
-    fbsv = "FBSV/13"
-    fbdm = "FBDM/{den"+"sity=3."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
+    fbdv = "FBDV/"+aa
+    fbsv = "FBSV/"+random.choice(["7.1.1","8.0","9","10","11","12","13","14"])
+    fbdm = "FBDM/{density=2.0,width=720,height=1280};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 def X3():
-    model = random.choice(["SM-G991U","SM-G986U","SM-G981U","SM-N986U","SM-N981U","SM-A716U","SM-A528B","SM-A526B","SM-T508U","SM-T507U","SM-F926U","SM-F916U","SM-A325F","SM-T505U","SM-S906U","SM-G996U","SM-G988U","SM-T607U","SM-P605U","SM-F916B","SM-A226B","SM-A526U","SM-T507B","SM-T508B","SM-F926B","SM-G991B","SM-G986B","SM-G981B","SM-N986B","SM-N981B","SM-A716B","SM-A528U","SM-A526U","SM-T505B","SM-S907U","SM-G988B","SM-T607B","SM-P608U","SM-F926U","SM-A226U","SM-A526B","SM-T507U","SM-T508U","SM-F916U","SM-G991U","SM-G986U","SM-G981U","SM-N986U","SM-N981U","SM-A716U","SM-A528B","SM-A526B","SM-T508U","SM-T507U","SM-F926U","SM-F916U","SM-A325F","SM-T505U","SM-S906U","SM-G996U","SM-G988U","SM-T607U","SM-P605U","SM-F916B","SM-A226B","SM-A526U","SM-T507B","SM-T508B","SM-F926B","SM-G991B","SM-G986B","SM-G981B","SM-N986B","SM-N981B","SM-A716B","SM-A528U","SM-A526U","SM-T505B","SM-S907U","SM-G988B","SM-T607B","SM-P608U","SM-F926U","SM-A226U","SM-A526B","SM-T507U","SM-T508U","SM-F916U"])
+    aa = random.choice(["SM-S906U","SM-A505GN","SM-A137F","SM-A546B","SM-G570F","SM-A226B","SM-A528B","SM-J737V","SM-A716U","SM-G935FD","SM-A-K116C2","SM-A105FN","SM-G988B","SM-G935FD","SM-S906U"])
     fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
-    fbbv = "FBBV/"+str(random.randint(410000000,499999999))
-    fblc = "FBLC/"+random.choice(["en_GB","en_US"])
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
     fbcr = "FBCR/null"
     fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+model
-    fbsv = "FBSV/13"
-    fbdm = "FBDM/{den"+"sity=3."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
+    fbdv = "FBDV/"+aa
+    fbsv = "FBSV/"+random.choice(["7.1.1","8.0","9","10","11","12","13","14"])
+    fbdm = "FBDM/{density=2.0,width=720,height=1280};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 def X4():
-    model = random.choice(["SM-G991U","SM-G986U","SM-G981U","SM-N986U","SM-N981U","SM-A716U","SM-A528B","SM-A526B","SM-T508U","SM-T507U","SM-F926U","SM-F916U","SM-A325F","SM-T505U","SM-S906U","SM-G996U","SM-G988U","SM-T607U","SM-P605U","SM-F916B","SM-A226B","SM-A526U","SM-T507B","SM-T508B","SM-F926B","SM-G991B","SM-G986B","SM-G981B","SM-N986B","SM-N981B","SM-A716B","SM-A528U","SM-A526U","SM-T505B","SM-S907U","SM-G988B","SM-T607B","SM-P608U","SM-F926U","SM-A226U","SM-A526B","SM-T507U","SM-T508U","SM-F916U","SM-G991U","SM-G986U","SM-G981U","SM-N986U","SM-N981U","SM-A716U","SM-A528B","SM-A526B","SM-T508U","SM-T507U","SM-F926U","SM-F916U","SM-A325F","SM-T505U","SM-S906U","SM-G996U","SM-G988U","SM-T607U","SM-P605U","SM-F916B","SM-A226B","SM-A526U","SM-T507B","SM-T508B","SM-F926B","SM-G991B","SM-G986B","SM-G981B","SM-N986B","SM-N981B","SM-A716B","SM-A528U","SM-A526U","SM-T505B","SM-S907U","SM-G988B","SM-T607B","SM-P608U","SM-F926U","SM-A226U","SM-A526B","SM-T507U","SM-T508U","SM-F916U"])
+    aa = random.choice(["SM-S906U","SM-A505GN","SM-A137F","SM-A546B","SM-G570F","SM-A226B","SM-A528B","SM-J737V","SM-A716U","SM-G935FD","SM-A-K116C2","SM-A105FN","SM-G988B","SM-G935FD","SM-S906U"])
     fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
-    fbbv = "FBBV/"+str(random.randint(410000000,499999999))
-    fblc = "FBLC/"+random.choice(["en_GB","en_US"])
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
     fbcr = "FBCR/null"
     fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+model
-    fbsv = "FBSV/13"
-    fbdm = "FBDM/{den"+"sity=3."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
+    fbdv = "FBDV/"+aa
+    fbsv = "FBSV/"+random.choice(["7.1.1","8.0","9","10","11","12","13","14"])
+    fbdm = "FBDM/{density=2.0,width=720,height=1280};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
