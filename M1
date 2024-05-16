@@ -1,52 +1,52 @@
 def X1():
-    aa = random.choice(["SM-S906U","SM-A505GN","SM-A137F","SM-A546B","SM-G570F","SM-A226B","SM-A528B","SM-J737V","SM-A716U","SM-G935FD","SM-A-K116C2","SM-A105FN","SM-G988B","SM-G935FD","SM-S906U"])
+    model = random.choice(["SM-A202F","SM-A137F","SM-A207F","SM-A528B","GT-S5570I","SM-A045F","SM-A032F","SM-A025F","SM-A225F","SM-A022F","SM-A217F","SM-E546B","SM-A105F"])
     fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
-    fbbv = "FBBV/58682818;"
-    fblc = "FBLC/en_GB"
-    fbcr = "FBCR/null"
+    fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
+    fbbv = "FBBV/"+str(random.randint(410000000,419999999))
+    fblc = "FBLC/"+random.choice(["en_GB","en_US"])
+    fbcr = "FBCR/"+random.choice(["null","NCel","Nepal Telecom","AT&T","Robi","Telenor","Zong","Ufone","Jazz","Verizon","Deutsche Telekom","Comcast","Nippon Telegraph & Telephone","T-Mobile","Vodafone","Orange S.A","KDDI","Sprint","O2","Virgin Mobile","Telstra","Telefónica","Airtel","Optus","Etisalat","Bell","Telecom Italia","Rogers","Djezzy","Nedjma","Batelco","STC Bahrain"])
     fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+aa
-    fbsv = "FBSV/"+random.choice(["7.1.1","8.0","9","10","11","12","13","14"])
-    fbdm = "FBDM/{density=2.0,width=720,height=1280};]" 
+    fbdv = "FBDV/"+model
+    fbsv = "FBSV/12.1.1"
+    fbdm = "FBDM/{den"+"sity=3."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 def X2():
-    aa = random.choice(["SM-S906U","SM-A505GN","SM-A137F","SM-A546B","SM-G570F","SM-A226B","SM-A528B","SM-J737V","SM-A716U","SM-G935FD","SM-A-K116C2","SM-A105FN","SM-G988B","SM-G935FD","SM-S906U"])
+    model = random.choice(["SM-A202F","SM-A137F","SM-A207F","SM-A528B","GT-S5570I","SM-A045F","SM-A032F","SM-A025F","SM-A225F","SM-A022F","SM-A217F","SM-E546B","SM-A105F"])
     fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
-    fbbv = "FBBV/58682818;"
-    fblc = "FBLC/en_GB"
-    fbcr = "FBCR/null"
+    fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
+    fbbv = "FBBV/"+str(random.randint(410000000,419999999))
+    fblc = "FBLC/"+random.choice(["en_GB","en_US"])
+    fbcr = "FBCR/"+random.choice(["null","NCel","Nepal Telecom","AT&T","Robi","Telenor","Zong","Ufone","Jazz","Verizon","Deutsche Telekom","Comcast","Nippon Telegraph & Telephone","T-Mobile","Vodafone","Orange S.A","KDDI","Sprint","O2","Virgin Mobile","Telstra","Telefónica","Airtel","Optus","Etisalat","Bell","Telecom Italia","Rogers","Djezzy","Nedjma","Batelco","STC Bahrain"])
     fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+aa
-    fbsv = "FBSV/"+random.choice(["7.1.1","8.0","9","10","11","12","13","14"])
-    fbdm = "FBDM/{density=2.0,width=720,height=1280};]" 
+    fbdv = "FBDV/"+model
+    fbsv = "FBSV/12.1.1"
+    fbdm = "FBDM/{den"+"sity=3."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 def X3():
-    aa = random.choice(["SM-S906U","SM-A505GN","SM-A137F","SM-A546B","SM-G570F","SM-A226B","SM-A528B","SM-J737V","SM-A716U","SM-G935FD","SM-A-K116C2","SM-A105FN","SM-G988B","SM-G935FD","SM-S906U"])
+    model = random.choice(["SM-A202F","SM-A137F","SM-A207F","SM-A528B","GT-S5570I","SM-A045F","SM-A032F","SM-A025F","SM-A225F","SM-A022F","SM-A217F","SM-E546B","SM-A105F"])
     fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
-    fbbv = "FBBV/58682818;"
-    fblc = "FBLC/en_GB"
-    fbcr = "FBCR/null"
+    fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
+    fbbv = "FBBV/"+str(random.randint(410000000,419999999))
+    fblc = "FBLC/"+random.choice(["en_GB","en_US"])
+    fbcr = "FBCR/"+random.choice(["null","NCel","Nepal Telecom","AT&T","Robi","Telenor","Zong","Ufone","Jazz","Verizon","Deutsche Telekom","Comcast","Nippon Telegraph & Telephone","T-Mobile","Vodafone","Orange S.A","KDDI","Sprint","O2","Virgin Mobile","Telstra","Telefónica","Airtel","Optus","Etisalat","Bell","Telecom Italia","Rogers","Djezzy","Nedjma","Batelco","STC Bahrain"])
     fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+aa
-    fbsv = "FBSV/"+random.choice(["7.1.1","8.0","9","10","11","12","13","14"])
-    fbdm = "FBDM/{density=2.0,width=720,height=1280};]" 
+    fbdv = "FBDV/"+model
+    fbsv = "FBSV/12.1.1"
+    fbdm = "FBDM/{den"+"sity=3."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 def X4():
-    aa = random.choice(["SM-S906U","SM-A505GN","SM-A137F","SM-A546B","SM-G570F","SM-A226B","SM-A528B","SM-J737V","SM-A716U","SM-G935FD","SM-A-K116C2","SM-A105FN","SM-G988B","SM-G935FD","SM-S906U"])
+    model = random.choice(["SM-A202F","SM-A137F","SM-A207F","SM-A528B","GT-S5570I","SM-A045F","SM-A032F","SM-A025F","SM-A225F","SM-A022F","SM-A217F","SM-E546B","SM-A105F"])
     fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
-    fbbv = "FBBV/58682818;"
-    fblc = "FBLC/en_GB"
-    fbcr = "FBCR/null"
+    fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
+    fbbv = "FBBV/"+str(random.randint(410000000,419999999))
+    fblc = "FBLC/"+random.choice(["en_GB","en_US"])
+    fbcr = "FBCR/"+random.choice(["null","NCel","Nepal Telecom","AT&T","Robi","Telenor","Zong","Ufone","Jazz","Verizon","Deutsche Telekom","Comcast","Nippon Telegraph & Telephone","T-Mobile","Vodafone","Orange S.A","KDDI","Sprint","O2","Virgin Mobile","Telstra","Telefónica","Airtel","Optus","Etisalat","Bell","Telecom Italia","Rogers","Djezzy","Nedjma","Batelco","STC Bahrain"])
     fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+aa
-    fbsv = "FBSV/"+random.choice(["7.1.1","8.0","9","10","11","12","13","14"])
-    fbdm = "FBDM/{density=2.0,width=720,height=1280};]" 
+    fbdv = "FBDV/"+model
+    fbsv = "FBSV/12.1.1"
+    fbdm = "FBDM/{den"+"sity=3."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
