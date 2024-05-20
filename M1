@@ -13,7 +13,6 @@ def X1():
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 def X2():
-    mdef X2():
     model = random.choice(["SM-T505N","SM-S906L","SM-G996N","SM-G988N","SM-T607N","SM-P605N","SM-F916K","SM-A226N","SM-A526N","SM-T507K"])
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
