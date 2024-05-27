@@ -1,11 +1,11 @@
 def X1():
-    model = random.choice(["SM-T508K", "SM-F926L", "SM-G991L", "SM-G986W", "SM-G981K", "SM-N986K", "SM-A716K", "SM-A528L", "SM-A526L", "SM-T505K"])
+    model = random.choice(["SM-S907K", "SM-G988K", "SM-T607K", "SM-P608N", "SM-F926K","SM-A226K", "SM-A526L", "SM-T507N", "SM-T508N", "SM-F916K"])
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
     fbbv = "FBBV/"+str(random.randint(410000000,499999999))
     #fblcc = "FBLC/"+random.choice(["en_GB","en_US"])
     fblc = "FBLC/en_GB"
-    fbcr = "FBCR/"+random.choice(["null","Telstra","FASTWEB","T-Mobile"])
+    fbcr = "FBCR/"+random.choice(["null","VODAFONE","Jazz","Jazz","Ufone","Zong","Telenor"])
     fbnp = "FBNP/com.facebook.katana"
     fbdv = "FBDV/"+model
     fbsv = "FBSV/11"
@@ -13,12 +13,12 @@ def X1():
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 def X2():
-    model = random.choice(["SM-T508K", "SM-F926L", "SM-G991L", "SM-G986W", "SM-G981K", "SM-N986K", "SM-A716K", "SM-A528L", "SM-A526L", "SM-T505K"])
+    model = random.choice(["SM-S907K", "SM-G988K", "SM-T607K", "SM-P608N", "SM-F926K","SM-A226K", "SM-A526L", "SM-T507N", "SM-T508N", "SM-F916K"])
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
     fbbv = "FBBV/"+str(random.randint(410000000,499999999))
     #fblcc = "FBLC/"+random.choice(["en_GB","en_US"])
-    fblc = "FBLC/en_US"
+    fblc = "FBLC/en_GB"
     fbcr = "FBCR/"+random.choice(["null","VODAFONE","Jazz","Jazz","Ufone","Zong","Telenor"])
     fbnp = "FBNP/com.facebook.katana"
     fbdv = "FBDV/"+model
@@ -27,13 +27,13 @@ def X2():
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 def X3():
-    model = random.choice(["SM-T508K", "SM-F926L", "SM-G991L", "SM-G986W", "SM-G981K", "SM-N986K", "SM-A716K", "SM-A528L", "SM-A526L", "SM-T505K"])
+    model = random.choice(["SM-S907K", "SM-G988K", "SM-T607K", "SM-P608N", "SM-F926K","SM-A226K", "SM-A526L", "SM-T507N", "SM-T508N", "SM-F916K"])
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
     fbbv = "FBBV/"+str(random.randint(410000000,499999999))
     #fblcc = "FBLC/"+random.choice(["en_GB","en_US"])
     fblc = "FBLC/en_GB"
-    fbcr = "FBCR/"+random.choice(["null","Telstra","FASTWEB","T-Mobile"])
+    fbcr = "FBCR/"+random.choice(["null","VODAFONE","Jazz","Jazz","Ufone","Zong","Telenor"])
     fbnp = "FBNP/com.facebook.katana"
     fbdv = "FBDV/"+model
     fbsv = "FBSV/11"
@@ -41,13 +41,13 @@ def X3():
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 def X4():
-    model = random.choice(["SM-T508K", "SM-F926L", "SM-G991L", "SM-G986W", "SM-G981K", "SM-N986K", "SM-A716K", "SM-A528L", "SM-A526L", "SM-T505K"])
+    model = random.choice(["SM-S907K", "SM-G988K", "SM-T607K", "SM-P608N", "SM-F926K","SM-A226K", "SM-A526L", "SM-T507N", "SM-T508N", "SM-F916K"])
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
     fbbv = "FBBV/"+str(random.randint(410000000,499999999))
     #fblcc = "FBLC/"+random.choice(["en_GB","en_US"])
     fblc = "FBLC/en_GB"
-    fbcr = "FBCR/"+random.choice(["null","Telstra","FASTWEB","T-Mobile"])
+    fbcr = "FBCR/"+random.choice(["null","VODAFONE","Jazz","Jazz","Ufone","Zong","Telenor"])
     fbnp = "FBNP/com.facebook.katana"
     fbdv = "FBDV/"+model
     fbsv = "FBSV/11"
