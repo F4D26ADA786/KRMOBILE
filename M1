@@ -1,56 +1,24 @@
 def X1():
-    model = random.choice(["SM-G991N", "SM-G986N", "SM-G981N", "SM-N986L", "SM-N981K","SM-A716L", "SM-A528K", "SM-A526K", "SM-T505L", "SM-S907L"])
-    fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
-    fbbv = "FBBV/"+str(random.randint(410000000,499999999))
-    #fblcc = "FBLC/"+random.choice(["en_GB","en_US"])
-    fblc = "FBLC/en_GB"
-    fbcr = "FBCR/"+random.choice(["null","VODAFONE","Jazz","Jazz","Ufone","Zong","Telenor"])
-    fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+model
-    fbsv = "FBSV/11"
-    fbdm = "FBDM/{den"+"sity=3."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
-    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
-    return ua
+	model = random.choice(["SM-G988L", "SM-T607L", "SM-P608K", "SM-F926N", "SM-A226L", "SM-A526K", "SM-T507L", "SM-T508L", "SM-F916N", "SM-G991K"])
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"
+	b = "[FBAN/FB4A;FBAV/461.0.0.47.85;FBBV/170693408;FBDM/{density=3.9,width=1440,height=2560};FBLC/en_GB;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+model+";FBSV/8.0;nullFBCA/armeabi-v7a:armeabi;]"
+	ua = a+b
+	return ua
 def X2():
-    model = random.choice(["SM-G991N", "SM-G986N", "SM-G981N", "SM-N986L", "SM-N981K","SM-A716L", "SM-A528K", "SM-A526K", "SM-T505L", "SM-S907L"])
-    fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
-    fbbv = "FBBV/"+str(random.randint(410000000,499999999))
-    #fblcc = "FBLC/"+random.choice(["en_GB","en_US"])
-    fblc = "FBLC/en_GB"
-    fbcr = "FBCR/"+random.choice(["null","VODAFONE","Jazz","Jazz","Ufone","Zong","Telenor"])
-    fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+model
-    fbsv = "FBSV/11"
-    fbdm = "FBDM/{den"+"sity=3."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
-    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
-    return ua
+	model = random.choice(["SM-G988L", "SM-T607L", "SM-P608K", "SM-F926N", "SM-A226L", "SM-A526K", "SM-T507L", "SM-T508L", "SM-F916N", "SM-G991K"])
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"
+	b = "[FBAN/FB4A;FBAV/461.0.0.47.85;FBBV/170693408;FBDM/{density=3.9,width=1440,height=2560};FBLC/en_GB;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+model+";FBSV/8.0;nullFBCA/armeabi-v7a:armeabi;]"
+	ua = a+b
+	return ua
 def X3():
-    model = random.choice(["SM-G991N", "SM-G986N", "SM-G981N", "SM-N986L", "SM-N981K","SM-A716L", "SM-A528K", "SM-A526K", "SM-T505L", "SM-S907L"])
-    fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
-    fbbv = "FBBV/"+str(random.randint(410000000,499999999))
-    #fblcc = "FBLC/"+random.choice(["en_GB","en_US"])
-    fblc = "FBLC/en_GB"
-    fbcr = "FBCR/"+random.choice(["null","VODAFONE","Jazz","Jazz","Ufone","Zong","Telenor"])
-    fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+model
-    fbsv = "FBSV/11"
-    fbdm = "FBDM/{den"+"sity=3."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
-    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
-    return ua
+	model = random.choice(["SM-G988L", "SM-T607L", "SM-P608K", "SM-F926N", "SM-A226L", "SM-A526K", "SM-T507L", "SM-T508L", "SM-F916N", "SM-G991K"])
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"
+	b = "[FBAN/FB4A;FBAV/461.0.0.47.85;FBBV/170693408;FBDM/{density=3.9,width=1440,height=2560};FBLC/en_GB;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+model+";FBSV/8.0;nullFBCA/armeabi-v7a:armeabi;]"
+	ua = a+b
+	return ua
 def X4():
-    model = random.choice(["SM-G991N", "SM-G986N", "SM-G981N", "SM-N986L", "SM-N981K","SM-A716L", "SM-A528K", "SM-A526K", "SM-T505L", "SM-S907L"])
-    fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
-    fbbv = "FBBV/"+str(random.randint(410000000,499999999))
-    #fblcc = "FBLC/"+random.choice(["en_GB","en_US"])
-    fblc = "FBLC/en_GB"
-    fbcr = "FBCR/"+random.choice(["null","VODAFONE","Jazz","Jazz","Ufone","Zong","Telenor"])
-    fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+model
-    fbsv = "FBSV/11"
-    fbdm = "FBDM/{den"+"sity=3."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
-    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
-    return ua
+	model = random.choice(["SM-G988L", "SM-T607L", "SM-P608K", "SM-F926N", "SM-A226L", "SM-A526K", "SM-T507L", "SM-T508L", "SM-F916N", "SM-G991K"])
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"
+	b = "[FBAN/FB4A;FBAV/461.0.0.47.85;FBBV/170693408;FBDM/{density=3.9,width=1440,height=2560};FBLC/en_GB;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+model+";FBSV/8.0;nullFBCA/armeabi-v7a:armeabi;]"
+	ua = a+b
+	return ua
