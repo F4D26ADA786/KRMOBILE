@@ -1,7 +1,7 @@
 def X1():
 	model = random.choice(["SM-G986K", "SM-G981L", "SM-N986N", "SM-A716N", "SM-A528W", "SM-A526W", "SM-T505K", "SM-S907N", "SM-G988N", "SM-T607N"])
-	a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"
-	b = "[FBAN/FB4A;FBAV/399.0.0.24.93;FBBV/170693408;FBDM/{density=3.9,width=1440,height=2560};FBLC/en_GB;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+model+";FBSV/8.0;nullFBCA/armeabi-v7a:armeabi;]"
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(101,269))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111444,7777999))+";"
+	b = "[FBAN/FB4A;FBAV/391.1.0.37.104;FBBV/318217130;FBDM/{density=3.5,width=1440,height=2560};FBLC/en_GB;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+model+";FBSV/8.0;nullFBCA/armeabi-v7a:armeabi;]"
 	ua = a+b
 	return ua
 def X2():
