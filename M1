@@ -1,15 +1,13 @@
 def X1():
-	model = random.choice(["SM-P608L", "SM-F926L", "SM-A226K", "SM-A526N", "SM-T507N", "SM-T508N", "SM-F916K", "SM-G991L", "SM-G986W", "SM-G981K"])
-	a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"
-	b = "[FBAN/FB4A;FBAV/399.0.0.24.93;FBBV/170693408;FBDM/{density=3.9,width=1440,height=2560};FBLC/en_GB;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+model+";FBSV/8.0;nullFBCA/armeabi-v7a:armeabi;]"
-	ua = a+b
-	return ua
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,318)) +";FBBV/"+str(random.randint(11111111,77777777))
+    b = ";[FBAN/Orca-Android;FBAV/458.0.0.38.86;FBPN/com.facebook.orca;FBLC/en_US;FBBV/450614370;FBCR/AT&amp;amp-T;FBMF/samsung;FBBD/samsung;FBDV/SM-A155F;FBSV/14;FBCA/arm64-v8a:null;FBDM/{density=3.0,width=1080,height=2140};FB_FW/1;] FBBK/1"
+    ua = a+b
+    return ua
 def X2():
-	model = random.choice(["SM-P608L", "SM-F926L", "SM-A226K", "SM-A526N", "SM-T507N", "SM-T508N", "SM-F916K", "SM-G991L", "SM-G986W", "SM-G981K"])
-	a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"
-	b = "[FBAN/FB4A;FBAV/399.0.0.24.93;FBBV/170693408;FBDM/{density=3.9,width=1440,height=2560};FBLC/en_GB;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+model+";FBSV/8.0;nullFBCA/armeabi-v7a:armeabi;]"
-	ua = a+b
-	return ua
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,318)) +";FBBV/"+str(random.randint(11111111,77777777))
+    b = ";[FBAN/Orca-Android;FBAV/458.0.0.38.86;FBPN/com.facebook.orca;FBLC/en_US;FBBV/450614370;FBCR/AT&amp;amp-T;FBMF/samsung;FBBD/samsung;FBDV/SM-A155F;FBSV/14;FBCA/arm64-v8a:null;FBDM/{density=3.0,width=1080,height=2140};FB_FW/1;] FBBK/1"
+    ua = a+b
+    return ua
 def X3():
 	model = random.choice(["SM-P608L", "SM-F926L", "SM-A226K", "SM-A526N", "SM-T507N", "SM-T508N", "SM-F916K", "SM-G991L", "SM-G986W", "SM-G981K"])
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"
