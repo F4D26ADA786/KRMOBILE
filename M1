@@ -1,4 +1,16 @@
 def X1():
+	model = random.choice(["SM-G991N", "SM-G986N", "SM-G981N", "SM-N986L", "SM-N981K", "SM-A716L", "SM-A528K", "SM-A526K", "SM-T505L", "SM-S907L"])
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"
+	b = "[FBAN/FB4A;FBAV/399.0.0.24.93;FBBV/170693408;FBDM/{density=3.9,width=1440,height=2560};FBLC/en_GB;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+model+";FBSV/8.0;nullFBCA/armeabi-v7a:armeabi;]"
+	ua = a+b
+	return ua
+def X2():
+	model = random.choice(["SM-G991N", "SM-G986N", "SM-G981N", "SM-N986L", "SM-N981K", "SM-A716L", "SM-A528K", "SM-A526K", "SM-T505L", "SM-S907L"])
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"
+	b = "[FBAN/FB4A;FBAV/399.0.0.24.93;FBBV/170693408;FBDM/{density=3.9,width=1440,height=2560};FBLC/en_GB;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/"+model+";FBSV/8.0;nullFBCA/armeabi-v7a:armeabi;]"
+	ua = a+b
+	return ua
+def X3():
     ua1 = random.choice(["Mozilla/5.0 (Linux; Android 12 SM-G950S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.3733.67 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 13 SM-G950V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/21.0.4435.40 Mobile Safari/537.36",
 "Mozilla/5.0 (Linux; Android 10 SM-G930W8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.2248.67 Mobile Safari/537.36",
 "Mozilla/5.0 (Linux; Android 13 SM-G920S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.4342.50 Mobile Safari/537.36",
@@ -162,7 +174,7 @@ def X1():
 "Mozilla/5.0 (Linux; Android 11 SM-G950U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/3.0.3871.15 Mobile Safari/537.36",])
     ua = ua1
     return ua
-def X2():
+def X4():
     ua1 = random.choice(["Mozilla/5.0 (Linux; Android 12 SM-G950S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.3733.67 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 13 SM-G950V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/21.0.4435.40 Mobile Safari/537.36",
 "Mozilla/5.0 (Linux; Android 10 SM-G930W8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.2248.67 Mobile Safari/537.36",
 "Mozilla/5.0 (Linux; Android 13 SM-G920S) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.4342.50 Mobile Safari/537.36",
