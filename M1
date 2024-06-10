@@ -1,8 +1,28 @@
 def X1():
-    ua  = "[FBAN/Orca-Android;FBAV/"+str(random.randint(196,214))+'.0.0.'+str(random.randrange(33,66))+";FBBV/"+str(random.randint(111111111,999999999))+";[FBAN/Orca-Android;FBAV/213.0.0.67;FBPN/com.facebook.orca;FBLC/en_US;FBBV/123456789;FBCR/Verizon;FBMF/Samsung;FBBD/Samsung;FBDV/GALAXY S24 ULTRA;FBSV/14;FBCA/arm64-v8a;FBDM/{density=2.0,width=1080,height=2400};FB_FW/1;FBRV/987654321]"
+    FBMF = 'Samsung'
+    FBBD = 'Samsung'
+    FBBV = f'''{random.randint(103020103, 903060903)}'''
+    FBSV = f'''{random.randint(4, 13)}.{random.randint(0, 9)}.{random.randint(1, 9)}'''
+    FBCA = random.choice(['arm64-v8a:null;','x86:armeabi-v7a;','armeabi-v7a:armeabi;'])
+    FBAV = f'''{random.randint(100, 450)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(1, 40)}.{random.randint(10, 150)}'''
+    FBLC = random.choice(['en_US','en_GB','en_AU','lt_LT','tr_TR','in_ID','id_ID','cs_CZ','pt_BR','de_DE','ru_RU','es_US','pt_PT'])
+    FBCR = random.choice(['O2.CZ','JAZZTEL','Nepal Telecom','YES OPTUS','Telstra','Telkomsel','null','Tele2 LT','Verizon','Unitel STP','MegaFon','MTN','Movistar','Turk Telekom','T-Mobile','VINAPHONE','LoneStar','UNEFON 4G','MASMOVIL','Grameenphone','Bouygues Telecom','Metfone','AT&amp;amp-T','Astelit-LIFE','Vodafone','XL Axiata','PLAY (T-Mobile)','Digi.Mobil','Verizon Wireless','SAZKAmobilCZ','PosteMobile','TELCEL','lifecell','Yoigo','vodafone.de','PosteMobile','Tele2 LT','Claro BR','O2 - UK','airtel','VIETTEL','U.S. Cellular','Metro by T-Mobile','TelkomSA','Banglalink','VIVACOM','lifecell','S COMVIQ','TRUE-H','GLOBE','VIETTEL','U.S. Cellular','Robi'])
+    BUILD = random.choice(['SP1A.210812.016','TP1A.220624.014','RP1A.200720.012','RKQ1.201004.002','PPR1.281373.396'])
+    FBDV = random.choice(['SM-G988L','SM-T607L','SM-P608K','SM-F926N','SM-A226L','SM-A526K','SM-T507L','SM-T508L','SM-F916N'])
+    ua = 'Dalvik/2.1.0 (Linux; U; Android ' + FBSV + '; ' + FBDV + ' Build/' + BUILD + ') [FBAN/FB4A;FBAV/' + FBAV + ';FBPN/com.facebook.katana;FBLC/' + FBLC + ';FBBV/' + FBBV + ';FBCR/' + FBCR + ';FBMF/' + FBMF + ';FBBD/' + FBBD + ';FBDV/' + FBDV + ';FBSV/' + FBSV + ';FBCA/' + FBCA + 'FBDM/{density=' + str(random.randint(1, 9)) + '.' + str(random.randint(1, 9)) + ',width=' + str(random.randint(500, 1500)) + ',height=' + str(random.randint(999, 3000)) + '};FB_FW/1;]'
     return ua
 def X2():
-    ua  = "[FBAN/Orca-Android;FBAV/"+str(random.randint(196,214))+'.0.0.'+str(random.randrange(33,66))+";FBBV/"+str(random.randint(111111111,999999999))+";[FBAN/Orca-Android;FBAV/213.0.0.67;FBPN/com.facebook.orca;FBLC/en_US;FBBV/123456789;FBCR/Verizon;FBMF/Samsung;FBBD/Samsung;FBDV/GALAXY S24 ULTRA;FBSV/14;FBCA/arm64-v8a;FBDM/{density=2.0,width=1080,height=2400};FB_FW/1;FBRV/987654321]"
+    FBMF = 'Samsung'
+    FBBD = 'Samsung'
+    FBBV = f'''{random.randint(103020103, 903060903)}'''
+    FBSV = f'''{random.randint(4, 13)}.{random.randint(0, 9)}.{random.randint(1, 9)}'''
+    FBCA = random.choice(['arm64-v8a:null;','x86:armeabi-v7a;','armeabi-v7a:armeabi;'])
+    FBAV = f'''{random.randint(100, 450)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(1, 40)}.{random.randint(10, 150)}'''
+    FBLC = random.choice(['en_US','en_GB','en_AU','lt_LT','tr_TR','in_ID','id_ID','cs_CZ','pt_BR','de_DE','ru_RU','es_US','pt_PT'])
+    FBCR = random.choice(['O2.CZ','JAZZTEL','Nepal Telecom','YES OPTUS','Telstra','Telkomsel','null','Tele2 LT','Verizon','Unitel STP','MegaFon','MTN','Movistar','Turk Telekom','T-Mobile','VINAPHONE','LoneStar','UNEFON 4G','MASMOVIL','Grameenphone','Bouygues Telecom','Metfone','AT&amp;amp-T','Astelit-LIFE','Vodafone','XL Axiata','PLAY (T-Mobile)','Digi.Mobil','Verizon Wireless','SAZKAmobilCZ','PosteMobile','TELCEL','lifecell','Yoigo','vodafone.de','PosteMobile','Tele2 LT','Claro BR','O2 - UK','airtel','VIETTEL','U.S. Cellular','Metro by T-Mobile','TelkomSA','Banglalink','VIVACOM','lifecell','S COMVIQ','TRUE-H','GLOBE','VIETTEL','U.S. Cellular','Robi'])
+    BUILD = random.choice(['SP1A.210812.016','TP1A.220624.014','RP1A.200720.012','RKQ1.201004.002','PPR1.281373.396'])
+    FBDV = random.choice(['SM-G988L','SM-T607L','SM-P608K','SM-F926N','SM-A226L','SM-A526K','SM-T507L','SM-T508L','SM-F916N'])
+    ua = 'Dalvik/2.1.0 (Linux; U; Android ' + FBSV + '; ' + FBDV + ' Build/' + BUILD + ') [FBAN/FB4A;FBAV/' + FBAV + ';FBPN/com.facebook.katana;FBLC/' + FBLC + ';FBBV/' + FBBV + ';FBCR/' + FBCR + ';FBMF/' + FBMF + ';FBBD/' + FBBD + ';FBDV/' + FBDV + ';FBSV/' + FBSV + ';FBCA/' + FBCA + 'FBDM/{density=' + str(random.randint(1, 9)) + '.' + str(random.randint(1, 9)) + ',width=' + str(random.randint(500, 1500)) + ',height=' + str(random.randint(999, 3000)) + '};FB_FW/1;]'
     return ua
 def X3():
     ua  = "[FBAN/Orca-Android;FBAV/"+str(random.randint(196,214))+'.0.0.'+str(random.randrange(33,66))+";FBBV/"+str(random.randint(111111111,999999999))+";[FBAN/Orca-Android;FBAV/213.0.0.67;FBPN/com.facebook.orca;FBLC/en_US;FBBV/123456789;FBCR/Verizon;FBMF/Samsung;FBBD/Samsung;FBDV/GALAXY S24 ULTRA;FBSV/14;FBCA/arm64-v8a;FBDM/{density=2.0,width=1080,height=2400};FB_FW/1;FBRV/987654321]"
