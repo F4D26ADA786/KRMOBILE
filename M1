@@ -1,30 +1,18 @@
 def X1():
-    ua1 = random.choice(["Mozilla/5.0 (Linux; Android 13; TV BOX) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6303.202 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; SM-A105F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6289.226 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 13; Magnet_G50) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6347.198 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; SM-T875) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6263.194 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; Lenovo TB-X306X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6308.199 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; 100003561) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6307.225 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 13; Lenovo TB-X606X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6316.218 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 11.1; e-tab 20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6276.209 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 9; H96 Max RK3318) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6349.196 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 10.1; MI PAD 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6341.207 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; X88pro10.q2.0.6330.d4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6297.206 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 13; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6315.218 Mobile Safari/537.36"])
-    ua = ua1
-    return ua
+	abc = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+	pkgs = random.choice(['com.facebook.katana','com.facebook.mlite','com.facebook.lite','com.facebook.adsmanager','com.facebook.liteh'])
+	build = random.choice(abc)+random.choice(abc)+random.choice(abc)
+	FBBV = str(random.randint(111111111,999999999))
+	FBCR = random.choice(["Jazz","Zong","Mobilink","Ufone"])
+	ios_version = random.choice(["10_0_2","10_1_1","10_2","10_2_1","10_3_1","10_3_2","10_3_3"])
+	ua = random.choice(["[FBAN/Orca-Android;FBAV/42.0.0.0.95;FBBV/13553094;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBCR/MobileNation;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/Samsung Galaxy A54 5G;FBSV/8.0;nullFBCA/armeabi-v7a:armeabi;]","[FBAN/FB4A;FBAV/215.0.0.100;FBBV/456789012;FBDM/{density=3.0,width=1080,height=2280};FBLC/en_PK;FBRV/654321098;FBCR/Sprint;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Galaxy Note 20;FBSV/6.4;nullFBCA/armeabi-v7a:armeabi;]"])
+	return ua
 def X2():
-    ua1 = random.choice(["Mozilla/5.0 (Linux; Android 13; TV BOX) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6303.202 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; SM-A105F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6289.226 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 13; Magnet_G50) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6347.198 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; SM-T875) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6263.194 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; Lenovo TB-X306X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6308.199 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; 100003561) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6307.225 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 13; Lenovo TB-X606X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6316.218 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 11.1; e-tab 20) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6276.209 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 9; H96 Max RK3318) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6349.196 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 10.1; MI PAD 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6341.207 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 14; X88pro10.q2.0.6330.d4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6297.206 Mobile Safari/537.36",
-"Mozilla/5.0 (Linux; Android 13; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6315.218 Mobile Safari/537.36"])
-    ua = ua1
-    return ua
+	abc = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+	pkgs = random.choice(['com.facebook.katana','com.facebook.mlite','com.facebook.lite','com.facebook.adsmanager','com.facebook.liteh'])
+	build = random.choice(abc)+random.choice(abc)+random.choice(abc)
+	FBBV = str(random.randint(111111111,999999999))
+	FBCR = random.choice(["Jazz","Zong","Mobilink","Ufone"])
+	ios_version = random.choice(["10_0_2","10_1_1","10_2","10_2_1","10_3_1","10_3_2","10_3_3"])
+	ua = random.choice(["[FBAN/Orca-Android;FBAV/42.0.0.0.95;FBBV/13553094;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBCR/MobileNation;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/Samsung Galaxy A54 5G;FBSV/8.0;nullFBCA/armeabi-v7a:armeabi;]","[FBAN/FB4A;FBAV/215.0.0.100;FBBV/456789012;FBDM/{density=3.0,width=1080,height=2280};FBLC/en_PK;FBRV/654321098;FBCR/Sprint;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Galaxy Note 20;FBSV/6.4;nullFBCA/armeabi-v7a:armeabi;]"])
+	return ua
