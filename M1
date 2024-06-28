@@ -1,14 +1,20 @@
 def X1():
-    samsung_models = ["SM-P610|P610XXS3FWD2","SM-T595|T595XXU4CVG4","SM-A107M|A107MUBS6CWD3","SM-A307GT|A307GTVJS5CWE2","SM-G991U|G991USQS8EWG1","SM-G985F|G985FXXSIHWGA","SM-N985F|N985FXXS7HWG1","SM-A515F|A515FXXU7HWF1","SM-A725F|A725FXXU6DWE3","SM-M315F|M315FXXU3CWA2","SM-F916U|F916USQS2JWE4",]
-    model_,build = random.choice(samsung_models).rsplit('|')
-    os_v = random.randint(4, 13)
-    fbav = f"{os_v}.0.{random.randint(111, 999)}.{random.randint(111, 999)}"
-    ua = ('[FBAN/Orca-Android;FBAV/'+str(fbav)+';FBPN/com.facebook.orca;FBLC/en_US;FBBV/'+str(random.randint(111111111,999999999))+';FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/'+str(model_)+'/7.2.9;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=810,height=1704};FB_FW/1;]')
+    s= "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))
+    e = ";[FBAN/FB4A;FBAV/225.0.0.12;FBBV/368660129;FBDM/{density=2.0,width=678,height=7915};FBLC/en_US;FBRV/216095057;FBCR/6G;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Samsung Reno 3;FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    ua = s + e	
     return ua
 def X2():
-    samsung_models = ["SM-G920F|G920FXXU6EVH6","SM-T535|T535XXS1BRJ2","SM-J320F|J320FXXU0ARL2","GT-I9190|I9190UBSCQB1","GT-N7100|N7100XXSFQE1","SM-T561|T561XXU0ARB1","GT-I9500|I9500XXUHQD1","SM-J320F|I9500XXUEMJ3","GT-P5100|P5100XXDNA1","SM-J320F|J320FXXU0ARL2","SM-F916U|F916USQS2JWE4",]
-    model_,build = random.choice(samsung_models).rsplit('|')
-    os_v = random.randint(4, 313)
-    fbav = f"{os_v}.0.{random.randint(111, 999)}.{random.randint(111, 999)}"
-    ua = ('[FBAN/Orca-Android;FBAV/'+str(fbav)+';FBPN/com.facebook.orca;FBLC/en_US;FBBV/'+str(random.randint(111111111,999999999))+';FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/'+str(model_)+'/7.2.9;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=810,height=1704};FB_FW/1;]')
+    s= "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))
+    e = ";[FBAN/FB4A;FBAV/225.0.0.12;FBBV/368660129;FBDM/{density=2.0,width=678,height=7915};FBLC/en_US;FBRV/216095057;FBCR/6G;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Samsung Reno 3;FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    ua = s + e	
+    return ua
+def X3():
+    s= "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))
+    e = ";[FBAN/FB4A;FBAV/225.0.0.12;FBBV/368660129;FBDM/{density=2.0,width=678,height=7915};FBLC/en_US;FBRV/216095057;FBCR/6G;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Samsung Reno 3;FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    ua = s + e	
+    return ua
+def X4():
+    s= "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))
+    e = ";[FBAN/FB4A;FBAV/225.0.0.12;FBBV/368660129;FBDM/{density=2.0,width=678,height=7915};FBLC/en_US;FBRV/216095057;FBCR/6G;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Samsung Reno 3;FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    ua = s + e	
     return ua
