@@ -1,10 +1,10 @@
 def X1():
     a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randint(9,49))+str(random.randint(11,77))
-    b = "[FBAN/FB4A;FBAV/"+str(random.randint(310,350))+".0.0."+str(random.randint(1,9))+"."+str(random.randint(50,110))+";FBPN/com.facebook.katana;FBLC/en_US;FBBV/"+str(random.randint(310000000,399999999))+";FBCR/MTN;FBMF/TECNO MOBILE LIMITED;FBBD/TECNO;FBDV/TECNO CH6;FBSV/12;FBCA/arm64-v8a:null;FBDM/{density=3.0,width=1080,height=2351};FB_FW/1;FBRV/0;] FBBK/1"
+    b = ";[FBAN/FB4A;FBAV/367.0.0.24.107;FBBV/370253085;FBDM/{density=3.375,width=1080,height=2150};FBLC/en_US;FBRV/371264849;FBCR/CC Network;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G781U1;FBSV/12;FBOP/1;FBCA/arm64-v8a:;]"
     ua = a+b
     return ua
 def X2():
     a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randint(9,49))+str(random.randint(11,77))
-    b = "[FBAN/FB4A;FBAV/"+str(random.randint(310,350))+".0.0."+str(random.randint(1,9))+"."+str(random.randint(50,110))+";FBPN/com.facebook.katana;FBLC/en_US;FBBV/"+str(random.randint(310000000,399999999))+";FBCR/MTN;FBMF/TECNO MOBILE LIMITED;FBBD/TECNO;FBDV/TECNO CH6;FBSV/12;FBCA/arm64-v8a:null;FBDM/{density=3.0,width=1080,height=2351};FB_FW/1;FBRV/0;] FBBK/1"
+    b = ";[FBAN/FB4A;FBAV/367.0.0.24.107;FBBV/370253085;FBDM/{density=3.375,width=1080,height=2150};FBLC/en_US;FBRV/371264849;FBCR/CC Network;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G781U1;FBSV/12;FBOP/1;FBCA/arm64-v8a:;]"
     ua = a+b
     return ua
