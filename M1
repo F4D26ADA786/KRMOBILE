@@ -1,10 +1,14 @@
 def X1():
     a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randint(9,49))+str(random.randint(11,77))
-    b = ";[FBAN/FB4A;FBAV/367.0.0.24.107;FBBV/370253085;FBDM/{density=3.375,width=1080,height=2150};FBLC/en_US;FBRV/371264849;FBCR/CC Network;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G781U1;FBSV/12;FBOP/1;FBCA/arm64-v8a:;]"
+    b = ";[FBAN/FB4A;FBAV/334.0.0.32.119;FBBV/314823326;FBDM/{density=2.8125,width=1080,height=2175};FBLC/ru_RU;FBRV/0;FBCR/Beeline;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A415F;FBSV/11;FBOP/19;FBCA/arm64-v8a:;]"
     ua = a+b
     return ua
 def X2():
+    END = "[FBAN/FB4A;FBAV/346.0.0.29.119;FBBV/335950338;FBDM/{density=2.625,width=1080,height=2184};FBLC/ru_RU;FBRV/337320845;FBCR/MegaFon;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A415F;FBSV/11;FBOP/19;FBCA/arm64-v8a:;]"
+    ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; V2027 Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})[FBAN/FB4A;FBAV/45.0.0.{str(random.randint(1000,9000))};FBBV/{str(random.randint(100000,900000))};'+END
+    return ua
+def X3():
     a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randint(9,49))+str(random.randint(11,77))
-    b = ";[FBAN/FB4A;FBAV/367.0.0.24.107;FBBV/370253085;FBDM/{density=3.375,width=1080,height=2150};FBLC/en_US;FBRV/371264849;FBCR/CC Network;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G781U1;FBSV/12;FBOP/1;FBCA/arm64-v8a:;]"
+    b = ";[FBAN/FB4A;FBAV/334.0.0.32.119;FBBV/314823326;FBDM/{density=2.8125,width=1080,height=2175};FBLC/ru_RU;FBRV/0;FBCR/Beeline;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A415F;FBSV/11;FBOP/19;FBCA/arm64-v8a:;]"
     ua = a+b
     return ua
