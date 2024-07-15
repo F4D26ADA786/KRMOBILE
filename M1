@@ -1,24 +1,8 @@
 def X1():
-    models = random.choice(['SM-A356E', 'SM-A356E/DS', 'SM-A356B', 'SM-A356B/DS', 'SM-A356U', 'SM-A356U1','SM-A352F ','SM-G960F','SM-A352F','SM-A528B','SM-A715F' ])
-    size = random.choice(["{density=2.0,width=720,height=1376}","{density=2.75,width=1080,height=2134}","{density=3.0,width=1080,height=2199}","{density=2.0,width=720,height=1280}","{density=3.0,width=1080,height=2289}","{density=3.0,width=1080,height=2208}","{density=2.8125,width=1080,height=2191}","{density=1.75,width=720,height=1440}","{density=2.0,width=720,height=1406}","{density=2.0,width=720,height=1184}","{density=1.0,width=1280,height=752}","{density=3.0,width=1080,height=2076}","{density=2.0,width=1080,height=1920}"])
-    fblc = random.choice(["en_GB","en_US","pt_BR","ru_RU","en_IN","en_NP","np_NP","en_PK"])
-    fbca = random.choice(["arm64-v8a","armeabi-v7a:armeabi","x86:armeabi-v7a"])
-    fbcr1 = random.choice(["null","NCel","Nepal Telecom","AT&T","Robi","Telenor","Zong","Ufone","Jazz","Verizon","Deutsche Telekom","Comcast","Nippon Telegraph & Telephone","T-Mobile","Vodafone","Orange S.A","KDDI","Sprint","O2","Virgin Mobile","Telstra","Telefónica","Airtel","Optus","Etisalat","Bell","Telecom Italia","Rogers","Djezzy","Nedjma","Batelco","STC Bahrain","Telekom.de"])
-    a = f'Dalvik/2.1.0 (Linux; U; Android ' + str(random.randrange(4, 14)) + '; ' + str(models) + ' Build/QP1A.' + str(random.randrange(111111, 999999)) + '.' + str(random.randrange(111, 999)) + ')'
-    b = " [FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randint(9,49))+str(random.randint(11,318)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
-    c = "[FBAN/FB4A;FBAV/"+str(random.randint(410,465))+'.0.0.'+str(random.randint(11,59))+'.'+str(random.randint(110,350)) +";FBBV/"+str(random.randint(410000000,429999999))+""
-    d = ";FBDM/" + str(size) + ";FBLC/" + str(fblc) + ";FBRV/"+str(random.randint(410000000,599999999))+";FBCR/" + str(fbcr1) + ";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + str(models) + ";FBSV/"+str(random.randint(6,14))+";FBOP/"+str(random.randint(0,19))+";FBCA/" + str(fbca) + ";]"
-    ua = a+b+c+d
+    END = "[FBAN/Orca-Android;FBAV/240.0.322.659;FBPN/com.facebook.orca;FBLC/fr_FR;FBBV/259018487;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-J415FN/9;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1396};FB_FW/1;]"
+    ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; V2027 Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})[FBAN/FB4A;FBAV/45.0.0.{str(random.randint(1000,9000))};FBBV/{str(random.randint(100000,900000))};'+END
     return ua
 def X2():
-    models = random.choice(['SM-A356E', 'SM-A356E/DS', 'SM-A356B', 'SM-A356B/DS', 'SM-A356U', 'SM-A356U1','SM-A352F ','SM-G960F','SM-A352F','SM-A528B','SM-A715F' ])
-    size = random.choice(["{density=2.0,width=720,height=1376}","{density=2.75,width=1080,height=2134}","{density=3.0,width=1080,height=2199}","{density=2.0,width=720,height=1280}","{density=3.0,width=1080,height=2289}","{density=3.0,width=1080,height=2208}","{density=2.8125,width=1080,height=2191}","{density=1.75,width=720,height=1440}","{density=2.0,width=720,height=1406}","{density=2.0,width=720,height=1184}","{density=1.0,width=1280,height=752}","{density=3.0,width=1080,height=2076}","{density=2.0,width=1080,height=1920}"])
-    fblc = random.choice(["en_GB","en_US","pt_BR","ru_RU","en_IN","en_NP","np_NP","en_PK"])
-    fbca = random.choice(["arm64-v8a","armeabi-v7a:armeabi","x86:armeabi-v7a"])
-    fbcr1 = random.choice(["null","NCel","Nepal Telecom","AT&T","Robi","Telenor","Zong","Ufone","Jazz","Verizon","Deutsche Telekom","Comcast","Nippon Telegraph & Telephone","T-Mobile","Vodafone","Orange S.A","KDDI","Sprint","O2","Virgin Mobile","Telstra","Telefónica","Airtel","Optus","Etisalat","Bell","Telecom Italia","Rogers","Djezzy","Nedjma","Batelco","STC Bahrain","Telekom.de"])
-    a = f'Dalvik/2.1.0 (Linux; U; Android ' + str(random.randrange(4, 14)) + '; ' + str(models) + ' Build/QP1A.' + str(random.randrange(111111, 999999)) + '.' + str(random.randrange(111, 999)) + ')'
-    b = " [FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randint(9,49))+str(random.randint(11,318)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
-    c = "[FBAN/FB4A;FBAV/"+str(random.randint(410,465))+'.0.0.'+str(random.randint(11,59))+'.'+str(random.randint(110,350)) +";FBBV/"+str(random.randint(410000000,429999999))+""
-    d = ";FBDM/" + str(size) + ";FBLC/" + str(fblc) + ";FBRV/"+str(random.randint(410000000,599999999))+";FBCR/" + str(fbcr1) + ";FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/" + str(models) + ";FBSV/"+str(random.randint(6,14))+";FBOP/"+str(random.randint(0,19))+";FBCA/" + str(fbca) + ";]"
-    ua = a+b+c+d
+    END = "[FBAN/Orca-Android;FBAV/240.0.322.659;FBPN/com.facebook.orca;FBLC/fr_FR;FBBV/259018487;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-J415FN/9;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1396};FB_FW/1;]"
+    ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; V2027 Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})[FBAN/FB4A;FBAV/45.0.0.{str(random.randint(1000,9000))};FBBV/{str(random.randint(100000,900000))};'+END
     return ua
