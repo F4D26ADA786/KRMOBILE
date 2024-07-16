@@ -1,8 +1,8 @@
 def X1():
-    END = "[FBAN/Orca-Android;FBAV/240.0.322.659;FBPN/com.facebook.orca;FBLC/fr_FR;FBBV/259018487;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-J415FN/9;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1396};FB_FW/1;]"
+    END = "[FBAN/Orca-Android;FBAV/240.0.322.659;FBPN/com.facebook.orca;FBLC/fr_FR;FBBV/259018487;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-G955U/9;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=2094};FB_FW/1;]"
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; V2027 Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})[FBAN/FB4A;FBAV/45.0.0.{str(random.randint(1000,9000))};FBBV/{str(random.randint(100000,900000))};'+END
     return ua
 def X2():
-    END = "[FBAN/Orca-Android;FBAV/240.0.322.659;FBPN/com.facebook.orca;FBLC/fr_FR;FBBV/259018487;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-J415FN/9;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1396};FB_FW/1;]"
+    END = "[FBAN/Orca-Android;FBAV/240.0.322.659;FBPN/com.facebook.orca;FBLC/fr_FR;FBBV/259018487;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-G955U/9;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=2094};FB_FW/1;]"
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; V2027 Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})[FBAN/FB4A;FBAV/45.0.0.{str(random.randint(1000,9000))};FBBV/{str(random.randint(100000,900000))};'+END
     return ua
