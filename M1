@@ -1,7 +1,7 @@
 def X1():
     browser_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
     device_types = ["Windows NT 10.0", "Macintosh", "Android 12", "Android 11", "Linux x86_64"]
-    device_models = ["SM-G991U", "SM-G935F", "SM-S906B", "SM-N976Q", "SM-G970F"]
+    device_models = ["SM-G991U", "SM-G935F", "SM-S906B", "SM-N976Q", "SM-G970F", "SM-A526K", "SM-A336E", "SM-T507L", "SM-T508L", "SM-F916N", "SM-G988L", "SM-T607L", "SM-P608K", "SM-F926N", "SM-A226L", "SM-A526W", "SM-A336L", "SM-T507W", "SM-T508W", "SM-F916W"]
     firefox_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
     browser_version = random.choice(browser_versions)
     device_type = random.choice(device_types)
@@ -12,7 +12,7 @@ def X1():
 def X2():
     browser_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
     device_types = ["Windows NT 10.0", "Macintosh", "Android 12", "Android 11", "Linux x86_64"]
-    device_models = ["SM-G991U", "SM-G935F", "SM-S906B", "SM-N976Q", "SM-G970F"]
+    device_models = ["SM-G991U", "SM-G935F", "SM-S906B", "SM-N976Q", "SM-G970F", "SM-A526K", "SM-A336E", "SM-T507L", "SM-T508L", "SM-F916N", "SM-G988L", "SM-T607L", "SM-P608K", "SM-F926N", "SM-A226L", "SM-A526W", "SM-A336L", "SM-T507W", "SM-T508W", "SM-F916W"]
     firefox_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
     browser_version = random.choice(browser_versions)
     device_type = random.choice(device_types)
