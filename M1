@@ -9,7 +9,7 @@ def X1():
     firefox_version = random.choice(firefox_versions)
     user_agent = f"Mozilla/5.0 ({device_type}; {device_model}; rv:{browser_version}) Gecko/20100101 Firefox/{firefox_version}"
     return user_agent
-def X1():
+def X2():
     browser_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
     device_types = ["Windows NT 10.0", "Macintosh", "Android 12", "Android 11", "Linux x86_64"]
     device_models = ["SM-G781U", "SM-A716U", "SM-A217F", "SM-M127F", "SM-F707U", "SM-A037F", "SM-M437F", "SM-A137F", "SM-A235F", "SM-A736B", "SM-A038F", "SM-M537F", "SM-A237F", "SM-A736N", "SM-A038N", "SM-M637F", "SM-A247F", "SM-A737F", "SM-A048F", "SM-M747F", "SM-A257F", "SM-A748F", "SM-A058F", "SM-M857F", "SM-A268F", "SM-A758F", "SM-A078F", "SM-M967F", "SM-A288F", "SM-A868F"]
