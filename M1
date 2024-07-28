@@ -1,7 +1,7 @@
 def X1():
     browser_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
     device_types = ["Windows NT 10.0", "Macintosh", "Android 12", "Android 11", "Linux x86_64"]
-    device_models = ["SM-G900F", "SM-G530H", "SM-N9005", "SM-G350E", "SM-T230NU", "SM-G3815", "SM-T331C", "SM-G386F", "SM-T537R4", "SM-G531F", "SM-J100H", "SM-T705C", "SM-G360F", "SM-T807R4", "SM-G531H", "SM-J200F", "SM-T705Y", "SM-G360H", "SM-T707R4", "SM-G550F", "SM-J500F", "SM-T805Y", "SM-G550T", "SM-T817R4", "SM-G610F", "SM-J700F", "SM-T810Y", "SM-G610Y", "SM-T817W", "SM-G7102", "SM-J710F", "SM-T815Y", "SM-G7105", "SM-T817T", "SM-G810F", "SM-J810F", "SM-T818W", "SM-G850F", "SM-T825Y", "SM-G850Y", "SM-J910F", "SM-T835L", "SM-G860F", "SM-T837R4", "SM-G870F", "SM-J710FN", "SM-T837W", "SM-G890A", "SM-T845Y", "SM-G891A", "SM-J810Y", "SM-T847R4", "SM-G900H", "SM-T857W", "SM-G901F"]
+    device_models = ["SM-G355HN", "SM-T239C", "SM-G360G", "SM-T335L", "SM-G313HU", "SM-T239M", "SM-G360R4", "SM-T335Y", "SM-G316HU", "SM-T239Y", "SM-G360T1", "SM-T337A", "SM-G318H", "SM-T239W", "SM-G360FQ", "SM-T337T", "SM-G320AO", "SM-T239R4", "SM-G361F", "SM-T337W"]
     firefox_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
     browser_version = random.choice(browser_versions)
     device_type = random.choice(device_types)
@@ -12,7 +12,7 @@ def X1():
 def X2():
     browser_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
     device_types = ["Windows NT 10.0", "Macintosh", "Android 12", "Android 11", "Linux x86_64"]
-    device_models = ["SM-G900F", "SM-G530H", "SM-N9005", "SM-G350E", "SM-T230NU", "SM-G3815", "SM-T331C", "SM-G386F", "SM-T537R4", "SM-G531F", "SM-J100H", "SM-T705C", "SM-G360F", "SM-T807R4", "SM-G531H", "SM-J200F", "SM-T705Y", "SM-G360H", "SM-T707R4", "SM-G550F", "SM-J500F", "SM-T805Y", "SM-G550T", "SM-T817R4", "SM-G610F", "SM-J700F", "SM-T810Y", "SM-G610Y", "SM-T817W", "SM-G7102", "SM-J710F", "SM-T815Y", "SM-G7105", "SM-T817T", "SM-G810F", "SM-J810F", "SM-T818W", "SM-G850F", "SM-T825Y", "SM-G850Y", "SM-J910F", "SM-T835L", "SM-G860F", "SM-T837R4", "SM-G870F", "SM-J710FN", "SM-T837W", "SM-G890A", "SM-T845Y", "SM-G891A", "SM-J810Y", "SM-T847R4", "SM-G900H", "SM-T857W", "SM-G901F"]
+    device_models = ["SM-G355HN", "SM-T239C", "SM-G360G", "SM-T335L", "SM-G313HU", "SM-T239M", "SM-G360R4", "SM-T335Y", "SM-G316HU", "SM-T239Y", "SM-G360T1", "SM-T337A", "SM-G318H", "SM-T239W", "SM-G360FQ", "SM-T337T", "SM-G320AO", "SM-T239R4", "SM-G361F", "SM-T337W"]
     firefox_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
     browser_version = random.choice(browser_versions)
     device_type = random.choice(device_types)
