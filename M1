@@ -18,7 +18,7 @@ def X1():
     strvnokiax = f"Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/{str(rc(build_nokiax))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(100,104))}.0.{str(rr(3900,4900))}.{str(rr(40,150))} Mobile Safari/537.36 NokiaBrowser/7.{str(rr(1,5))}.1.{str(rr(16,37))} {str(rc(aZ))}{str(rr(1,1000))}"
     strvgt = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; {str(rc(gt))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(100,104))}.0.{str(rr(3900,4900))}.{str(rr(40,150))} Mobile Safari/537.36 {str(rc(aZ))}{str(rr(1,1000))}"
     #return rc([strvoppo,strvredmi,strvoppo1,strvinfinix,strvsamsung,strvredmi1,strvnokiax,strvgt])
-    ua = ([strvoppo,strvredmi,strvoppo1,strvinfinix,strvsamsung,strvredmi1,strvnokiax,strvgt])
+    ua = random.choice([strvoppo,strvredmi,strvoppo1,strvinfinix,strvsamsung,strvredmi1,strvnokiax,strvgt])
     return ua
 def X2():
     rr = random.randint; rc = random.choice
@@ -40,5 +40,5 @@ def X2():
     strvnokiax = f"Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/{str(rc(build_nokiax))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(100,104))}.0.{str(rr(3900,4900))}.{str(rr(40,150))} Mobile Safari/537.36 NokiaBrowser/7.{str(rr(1,5))}.1.{str(rr(16,37))} {str(rc(aZ))}{str(rr(1,1000))}"
     strvgt = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; {str(rc(gt))}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(100,104))}.0.{str(rr(3900,4900))}.{str(rr(40,150))} Mobile Safari/537.36 {str(rc(aZ))}{str(rr(1,1000))}"
     #return rc([strvoppo,strvredmi,strvoppo1,strvinfinix,strvsamsung,strvredmi1,strvnokiax,strvgt])
-    ua = ([strvoppo,strvredmi,strvoppo1,strvinfinix,strvsamsung,strvredmi1,strvnokiax,strvgt])
+    ua = random.choice([strvoppo,strvredmi,strvoppo1,strvinfinix,strvsamsung,strvredmi1,strvnokiax,strvgt])
     return ua
