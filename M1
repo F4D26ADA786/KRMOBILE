@@ -1,22 +1,14 @@
-def X1():
-    browser_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
-    device_types = ["Windows NT 10.0", "Macintosh", "Android 12", "Android 11", "Linux x86_64"]
-    device_models = ["SM-G3502C","SM-T245","SM-G360GZ","SM-T235C","SM-G313HZ","SM-T245M","SM-G360R7","SM-T235M","SM-G316HZ","SM-T245Y","SM-G360T2","SM-T247P","SM-G318HZ","SM-T245R4","SM-G361F","SM-T247R4","SM-G320F","SM-T235R7","SM-G361HU","SM-T247W"]
-    firefox_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
-    browser_version = random.choice(browser_versions)
-    device_type = random.choice(device_types)
-    device_model = random.choice(device_models)
-    firefox_version = random.choice(firefox_versions)
-    user_agent = f"Mozilla/5.0 ({device_type}; {device_model}; rv:{browser_version}) Gecko/20100101 Firefox/{firefox_version}"
-    return user_agent
-def X2():
-    browser_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
-    device_types = ["Windows NT 10.0", "Macintosh", "Android 12", "Android 11", "Linux x86_64"]
-    device_models = ["SM-G3502C","SM-T245","SM-G360GZ","SM-T235C","SM-G313HZ","SM-T245M","SM-G360R7","SM-T235M","SM-G316HZ","SM-T245Y","SM-G360T2","SM-T247P","SM-G318HZ","SM-T245R4","SM-G361F","SM-T247R4","SM-G320F","SM-T235R7","SM-G361HU","SM-T247W"]
-    firefox_versions = ["102.0", "101.0", "100.0", "99.0", "98.0"]
-    browser_version = random.choice(browser_versions)
-    device_type = random.choice(device_types)
-    device_model = random.choice(device_models)
-    firefox_version = random.choice(firefox_versions)
-    user_agent = f"Mozilla/5.0 ({device_type}; {device_model}; rv:{browser_version}) Gecko/20100101 Firefox/{firefox_version}"
-    return user_agent
+def X1(): 
+    model2 = f"Redmi Note {random.randint(3,9)} Pro"
+    a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
+    b = f"[FBAN/FB4A;FBAV/{random.randint(11,77)}.0.0.{random.randrange(9,49)}{random.randint(11,77)};FBBV/{random.randint(1111111,7777777)}"
+    c = ";[FBAN/Orca-Android;FBAV/196.0.0.28;FBPN/com.facebook.orca;FBLC/nl_NL;FBBV/82130717;FBCR/Cellcom;FBMF/Samsung;FBBD/Samsung;FBDV/SM-A500F;FBSV/10.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,width=773,height=2056};FB_FW/1;FBRV/12061951;]"
+    ua = a+b+c
+    return ua
+def X2(): 
+    model2 = f"Redmi Note {random.randint(3,9)} Pro"
+    a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
+    b = f"[FBAN/FB4A;FBAV/{random.randint(11,77)}.0.0.{random.randrange(9,49)}{random.randint(11,77)};FBBV/{random.randint(1111111,7777777)}"
+    c = ";[FBAN/Orca-Android;FBAV/196.0.0.70;FBPN/com.facebook.orca;FBLC/cs_CZ;FBBV/30896684;FBCR/GCI Communications;FBMF/Realme;FBBD/Realme;FBDV/RMX2201;FBSV/8.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=838,height=2083};FB_FW/1;FBRV/40216239;]"
+    ua = a+b+c
+    return ua
