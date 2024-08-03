@@ -1,18 +1,13 @@
 def X1():
-    aa='Mozilla/5.0 (Linux; U; Android'
-    b=random.choice(['6','7','8','9','10','11','12'])
-    c=' en-us; GT-'
-    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    e=random.randrange(1, 999)
-    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-    h=random.randrange(73,100)
-    i='0'
-    j=random.randrange(4200,4900)
-    k=random.randrange(40,150)
-    l='Mobile Safari/537.36'
-    uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-    return uaku2
+    models = random.choice(['SM-N960U','SM-G973U','SM-G975U1','SM-G973U','SM-N975U','SM-G975U1', 'SM-G920F', 'SM-T535', 'SM-T231', 'SM-J320F', 'GT-I9190', 'GT-N7100', 'SM-T561', 'GT-N7100', 'GT-I9500', 'SM-J320F', 'SM-G930F', 'SM-J320F', 'SM-J510FN', 'GT-P5100', 'SM-J320F', 'GT-N8000'])
+    a=random.randrange(6, 13)
+    b=random.randrange(1, 7)
+    c=random.randrange(7, 13)
+    c=random.randrange(73,100)
+    d=random.randrange(4200,4900)
+    e=random.randrange(40,150)
+    uaku=f'Mozilla/5.0 (Linux; Android {a}; {models}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
+    return uaku
 def X2(): 
     model2 = f"Redmi Note {random.randint(3,9)} Pro"
     a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
